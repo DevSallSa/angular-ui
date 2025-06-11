@@ -31,10 +31,7 @@
             "tsConfig": "projects/angular-ui/tsconfig.spec.json",
             "karmaConfig": "projects/angular-ui/karma.conf.js",
             "include": ["**/*.spec.ts"],
-            "polyfills": [
-              "zone.js", 
-              "zone.js/testing"
-            ]
+            "polyfills": ["zone.js", "zone.js/testing"]
           }
         },
         "lint": {
