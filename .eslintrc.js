@@ -47,15 +47,6 @@ module.exports = {
         'no-console': 'warn',
         'max-lines-per-function': ['warn', 180],
         '@typescript-eslint/no-empty-function': 'warn',
-        '@typescript-eslint/ban-types': [
-          'warn',
-          {
-            types: {
-              '{}': true
-            },
-            extendDefaults: true
-          }
-        ],
         '@typescript-eslint/no-explicit-any': 'off',
         'header/header': [
           2,
