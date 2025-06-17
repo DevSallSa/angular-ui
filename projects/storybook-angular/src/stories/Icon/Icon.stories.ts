@@ -4,7 +4,10 @@
  * See LICENSE file in the project root for full license information.
  */
 import { Meta, StoryFn, moduleMetadata } from '@storybook/angular';
-import { BaoIconComponent, BaoIconModule } from 'angular-ui';
+import {
+  BaoIconComponent,
+  BaoIconModule
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 If a color is provided, it will be used as the icon's color. If no color is provided, the default behaviour is to use the parent's text color.

@@ -8,7 +8,7 @@ import {
   BaoBreadcrumbComponent,
   BaoHeaderInfoComponent,
   BaoHeaderInfoModule
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 Header info is used to present the title of a page and must contain an h1 tag.

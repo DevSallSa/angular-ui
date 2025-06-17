@@ -4,11 +4,10 @@
  * See LICENSE file in the project root for full license information.
  */
 import { CommonModule } from '@angular/common';
-import { moduleMetadata } from '@storybook/angular';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { PortalModule } from '@angular/cdk/portal';
 import { ReactiveFormsModule } from '@angular/forms';
-import { Meta, StoryFn } from '@storybook/angular';
+import { Meta, StoryFn, moduleMetadata } from '@storybook/angular';
 import {
   BaoFileInputComponent,
   BaoFileDropzoneIntructions,
@@ -23,7 +22,8 @@ import {
   BaoDropdownMenuTrigger,
   BaoDropdownMenuItemLabel,
   BaoDropdownMenuItem
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
+
 import { BaoFileReactiveFormExampleComponent } from 'projects/storybook-angular/src/app/file/file-example.component';
 
 const description = `

@@ -5,7 +5,11 @@
  */
 
 import { Meta, moduleMetadata, StoryFn } from '@storybook/angular';
-import { BaoModalClose, BaoModalInitialConfig, BaoModalRef } from 'angular-ui';
+import {
+  BaoModalClose,
+  BaoModalInitialConfig,
+  BaoModalRef
+} from 'projects/angular-ui/src/public-api';
 import { ModalContentScrollableExample } from 'projects/storybook-angular/src/app/modal/modal-scrollable/modal-content-scrollable-example.component';
 import { BaoModalModuleTest } from 'projects/storybook-angular/src/app/modal/module';
 

@@ -9,7 +9,7 @@ import {
   BaoRadioModule,
   BaoCommonComponentsModule,
   BaoButtonModule
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
 import { BaoRadioExampleComponent } from 'projects/storybook-angular/src/app/radio/form/radio-example.component';
 import { BaoRadioReactiveFormExampleComponent } from 'projects/storybook-angular/src/app/radio/reactiveForm/radio-example.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';

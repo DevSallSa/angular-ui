@@ -10,7 +10,10 @@ import {
   Meta,
   StoryFn
 } from '@storybook/angular';
-import { BaoTablistComponent, BaoTabsModule } from 'angular-ui';
+import {
+  BaoTablistComponent,
+  BaoTabsModule
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 The Tabs component allows to navigate quickly between different views from a same object. 

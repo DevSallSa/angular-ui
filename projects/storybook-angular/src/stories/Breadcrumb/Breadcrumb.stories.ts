@@ -4,7 +4,10 @@
  * See LICENSE file in the project root for full license information.
  */
 import { Meta, moduleMetadata, StoryFn } from '@storybook/angular';
-import { BaoBreadcrumbComponent, BaoBreadcrumbModule } from 'angular-ui';
+import {
+  BaoBreadcrumbComponent,
+  BaoBreadcrumbModule
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 The breadcrumb trail component allows users to locate themselves within the depth of a website's pages, while keeping a quick access to previous levels they've already visited.

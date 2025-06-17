@@ -20,7 +20,7 @@ import {
   BaoCheckboxModule,
   BaoRadioModule,
   BaoIconModule
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 The dropdown menu component reveals a list of actions or options

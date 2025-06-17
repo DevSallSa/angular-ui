@@ -17,7 +17,7 @@ import {
   BaoIconModule,
   BaoSnackBarModule,
   BaoTagModule
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
 
 import { SnackBarSimpleExample } from '../../app/snack-bar/snack-bar-simple/snack-bar-simple-example.component';
 

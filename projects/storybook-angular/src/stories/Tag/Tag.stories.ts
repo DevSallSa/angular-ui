@@ -4,7 +4,11 @@
  * See LICENSE file in the project root for full license information.
  */
 import { moduleMetadata, Meta, StoryFn } from '@storybook/angular';
-import { BaoIconModule, BaoTagComponent, BaoTagModule } from 'angular-ui';
+import {
+  BaoIconModule,
+  BaoTagComponent,
+  BaoTagModule
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 Tags are used to categorize, identify and organize content.

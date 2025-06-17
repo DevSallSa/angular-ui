@@ -10,7 +10,7 @@ import {
   BaoIconModule,
   BaoSnackBarModule,
   BaoTagModule
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
 import { SnackBarPreview } from 'projects/storybook-angular/src/app/snack-bar/snack-bar-preview/snack-bar-preview.component';
 
 const description = `

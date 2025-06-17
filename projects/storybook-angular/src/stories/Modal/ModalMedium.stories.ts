@@ -5,7 +5,11 @@
  */
 
 import { Meta, moduleMetadata, StoryFn } from '@storybook/angular';
-import { BaoModalClose, BaoModalInitialConfig, BaoModalRef } from 'angular-ui';
+import {
+  BaoModalClose,
+  BaoModalInitialConfig,
+  BaoModalRef
+} from 'projects/angular-ui/src/public-api';
 import { ModalContentMediumExample } from 'projects/storybook-angular/src/app/modal/modal-medium/modal-content-medium-example.component';
 import { BaoModalModuleTest } from 'projects/storybook-angular/src/app/modal/module';
 

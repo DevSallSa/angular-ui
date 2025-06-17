@@ -12,7 +12,7 @@ import {
   BaoSummaryDescription,
   BaoListSummary,
   BaoListSummaryItem
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 This component displays the sumamry of an object that can be edited, such as an address or a profile.

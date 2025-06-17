@@ -3,14 +3,13 @@
  * Licensed under the MIT license.
  * See LICENSE file in the project root for full license information.
  */
-import { moduleMetadata } from '@storybook/angular';
-import { Meta, Story } from '@storybook/angular';
+import { Meta, moduleMetadata, Story } from '@storybook/angular';
 import {
   BaoIconModule,
   BaoListItem,
   BaoListModule,
   BaoTagModule
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
 import { Primary } from './List.stories';
 
 const description = `

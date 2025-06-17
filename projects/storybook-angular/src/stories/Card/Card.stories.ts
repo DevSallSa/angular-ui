@@ -4,7 +4,11 @@
  * See LICENSE file in the project root for full license information.
  */
 import { moduleMetadata, StoryFn, Meta } from '@storybook/angular';
-import { BaoCardComponent, BaoCardModule, BaoIconModule } from 'angular-ui';
+import {
+  BaoCardComponent,
+  BaoCardModule,
+  BaoIconModule
+} from 'projects/angular-ui/src/public-api';
 
 const cardWithIconHeaderDescription = `
 To define a main icon for a card, a \`bao-icon\` component should be used inside a \`bao-card-header\` tag, 

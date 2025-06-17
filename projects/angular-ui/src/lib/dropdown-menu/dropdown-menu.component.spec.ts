@@ -23,7 +23,7 @@ import {
   BaoIconComponent,
   BaoCheckboxComponent,
   BaoRadioButtonComponent
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
 
 /* eslint-disable @typescript-eslint/no-unsafe-return */
 describe('BaoDropdownMenuComponent', () => {

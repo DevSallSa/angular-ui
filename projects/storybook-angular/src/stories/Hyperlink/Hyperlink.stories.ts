@@ -9,7 +9,7 @@ import {
   BaoHyperlinkComponent,
   BaoHyperlinkModule,
   BaoIconModule
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 Hyperlinks allow navigation between the various pages of a digital product.

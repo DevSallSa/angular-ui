@@ -5,7 +5,10 @@
  */
 import { CommonModule } from '@angular/common';
 import { moduleMetadata, StoryFn, Meta } from '@storybook/angular';
-import { BaoAvatarComponent, BaoAvatarModule } from 'angular-ui';
+import {
+  BaoAvatarComponent,
+  BaoAvatarModule
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 Avatar are used to display a representation of a user's profile. 

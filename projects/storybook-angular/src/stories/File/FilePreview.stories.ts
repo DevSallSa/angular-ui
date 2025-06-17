@@ -4,10 +4,9 @@
  * See LICENSE file in the project root for full license information.
  */
 import { CommonModule } from '@angular/common';
-import { moduleMetadata } from '@storybook/angular';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { PortalModule } from '@angular/cdk/portal';
-import { Meta, Story } from '@storybook/angular';
+import { Meta, moduleMetadata, Story } from '@storybook/angular';
 import {
   BaoFilePreviewComponent,
   BaoDropdownMenuComponent,
@@ -16,7 +15,7 @@ import {
   BaoDropdownMenuItemLabel,
   BaoButtonComponent,
   BaoIconComponent
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 The File component allows users to transfer local files to the system. 

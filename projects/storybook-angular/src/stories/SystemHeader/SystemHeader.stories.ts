@@ -4,8 +4,7 @@
  * See LICENSE file in the project root for full license information.
  */
 import { CommonModule } from '@angular/common';
-import { moduleMetadata } from '@storybook/angular';
-import { Meta, StoryFn } from '@storybook/angular';
+import { Meta, moduleMetadata, StoryFn } from '@storybook/angular';
 import {
   BaoSystemHeaderModule,
   BaoTagModule,
@@ -13,7 +12,7 @@ import {
   BaoBreadcrumbModule,
   BaoIconModule,
   BaoDropdownMenuModule
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 The System Header pattern is used to display the title of a page from an internal service. It can also serve as a secondary navigation tool. 

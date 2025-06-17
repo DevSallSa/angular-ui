@@ -17,7 +17,7 @@ import {
   BaoListModule,
   BaoRadioModule,
   BaoTagModule
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 A list of utility items is a list composed of complex objects intended for an application or a tool.

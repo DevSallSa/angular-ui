@@ -5,7 +5,11 @@
  */
 import { CommonModule } from '@angular/common';
 import { moduleMetadata, StoryFn, Meta } from '@storybook/angular';
-import { BaoButtonComponent, BaoButtonModule, BaoIconModule } from 'angular-ui';
+import {
+  BaoButtonComponent,
+  BaoButtonModule,
+  BaoIconModule
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 Primary UI component for user interaction

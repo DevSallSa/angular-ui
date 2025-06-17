@@ -5,7 +5,12 @@
  */
 import { CommonModule } from '@angular/common';
 import { StoryFn, moduleMetadata, Meta } from '@storybook/angular';
-import { BaoButtonComponent, BaoButtonModule, BaoIconModule } from 'angular-ui';
+import {
+  BaoButtonComponent,
+  BaoButtonModule,
+  BaoIconModule
+} from 'projects/angular-ui/src/public-api';
+
 export default {
   title: 'Components/Button/Editorial',
   decorators: [

@@ -5,7 +5,10 @@
  */
 import { Component, Input } from '@angular/core';
 import { ICONS_DCT } from 'projects/angular-ui/src/lib/icon/icons-dictionary';
-import { BaoSnackBarConfig, BaoSnackBarToastType } from 'angular-ui';
+import {
+  BaoSnackBarConfig,
+  BaoSnackBarToastType
+} from 'projects/angular-ui/src/public-api';
 
 /**
  * @title Shows the preview snackbar

@@ -1,5 +1,5 @@
 /*import { Component, Inject } from '@angular/core';
-import { BaoSnackBarService } from 'angular-ui';
+import { BaoSnackBarService } from 'projects/angular-ui/src/public-api';
 
 @Component({
   selector: 'app-snack-bar',

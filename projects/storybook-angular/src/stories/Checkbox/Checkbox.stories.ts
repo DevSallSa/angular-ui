@@ -8,7 +8,7 @@ import {
   BaoCheckboxComponent,
   BaoCheckboxModule,
   BaoCommonComponentsModule
-} from 'angular-ui';
+} from 'projects/angular-ui/src/public-api';
 import { BaoCheckboxExampleComponent } from 'projects/storybook-angular/src/app/checkbox/form/checkbox-example.component';
 import { BaoCheckboxReactiveFormExampleComponent } from 'projects/storybook-angular/src/app/checkbox/reactiveForm/checkbox-example.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';

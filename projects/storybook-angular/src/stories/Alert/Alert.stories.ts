@@ -5,7 +5,11 @@
  */
 import { CommonModule } from '@angular/common';
 import { moduleMetadata, Meta, StoryFn } from '@storybook/angular';
-import { BaoIconModule, BaoAlertComponent, BaoAlertModule } from 'angular-ui';
+import {
+  BaoIconModule,
+  BaoAlertComponent,
+  BaoAlertModule
+} from 'projects/angular-ui/src/public-api';
 
 const description = `
 Alerts are used to display an important message and optional related **actions**.
